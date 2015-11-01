@@ -8,21 +8,22 @@ affililink = function() {
   var a, addTagToEnd, domain, ebay, ebayCode, host, options, track, universalCode, url, _i, _len, _results;
   /* enter your affiliate codes below */
   ebayCode = {
-    'campaign': 5336854507, /* eBay Campaign Id */
-    'country': 'UK' /* AT, AU, BE, CA, CH, DE, ES, FR, IE, IT, NL, UK, US */
+    'campaign': 5337377493, /* eBay Campaign Id */
+    'country': 'US' /* AT, AU, BE, CA, CH, DE, ES, FR, IE, IT, NL, UK, US */
   };
   universalCode = {
     /* Amazon codes are present, if you want to add a custom code just follow the format of Amazon ('DOMAIN.COM': 'VARIABLE=',) */
-    'amazon.co.uk': 'tag=affililink-21',
-    'amazon.com': 'tag=affililink-20',
-    'amazon.de': 'tag=',
-    'amazon.fr': 'tag=',
+    'amazon.co.uk': 'tag=teksynd-21',
+    'amazon.com': 'tag=teksynd-20',
+    'amazon.de': 'tag=teksynd06-21',
+    'amazon.ca': 'tag=teksynd01-20',
     'javari.co.uk': 'tag=',
     'javari.de': 'tag=',
     'javari.fr': 'tag=',
-    'amazonsupply.com': 'tag=',
-    'amazonwireless.com': 'tag=',
-    'endless.com': 'tag=',
+    'amazonsupply.com': 'tag=teksynd-20',
+    'amazonwireless.com': 'tag=teksynd-20',
+    'endless.com': 'tag=teksynd-20',
+    'gog.com': 'pp=0514ab1836089bf8a100d7009abb5c5a02ed9388'
   };
   options = {
     'replace_links': true, /* replace existing affiliate codes */
